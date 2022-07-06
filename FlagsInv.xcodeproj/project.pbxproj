@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B71676128731F53009DFFFF /* FlagsInvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71676028731F53009DFFFF /* FlagsInvApp.swift */; };
+		8B71676328731F53009DFFFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71676228731F53009DFFFF /* ContentView.swift */; };
+		8B71676528731F55009DFFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B71676428731F55009DFFFF /* Assets.xcassets */; };
+		8B71676828731F55009DFFFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B71676728731F55009DFFFF /* Preview Assets.xcassets */; };
+		8B71676F28731F74009DFFFF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71676E28731F74009DFFFF /* ContentViewModel.swift */; };
+		8B7167722873203D009DFFFF /* FlagKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7167712873203D009DFFFF /* FlagKit */; };
+		8B71677528743F04009DFFFF /* PhoneNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71677428743F04009DFFFF /* PhoneNumberInputView.swift */; };
+		8B71677C287481F9009DFFFF /* PhoneMasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B71677B287481F9009DFFFF /* PhoneMasks.json */; };
+		8B716799287588BE009DFFFF /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8B716798287588BE009DFFFF /* PhoneNumberKit */; };
+		8B7167A128758A40009DFFFF /* PNKInputImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7167A028758A40009DFFFF /* PNKInputImpl.swift */; };
+		8B7167A328758AEE009DFFFF /* PhoneNumberKitInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7167A228758AEE009DFFFF /* PhoneNumberKitInputField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B71679E287588CE009DFFFF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B71675D28731F53009DFFFF /* FlagsInv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagsInv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B71676028731F53009DFFFF /* FlagsInvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsInvApp.swift; sourceTree = "<group>"; };
+		8B71676228731F53009DFFFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B71676428731F55009DFFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B71676728731F55009DFFFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B71676E28731F74009DFFFF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		8B71677428743F04009DFFFF /* PhoneNumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberInputView.swift; sourceTree = "<group>"; };
+		8B71677B287481F9009DFFFF /* PhoneMasks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PhoneMasks.json; path = "../../../../../../Downloads/d58d88cad0281e4b187b0effced769b2-72f2f2f610010a512c856726891a16c491123275/PhoneMasks.json"; sourceTree = "<group>"; };
+		8B7167A028758A40009DFFFF /* PNKInputImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNKInputImpl.swift; sourceTree = "<group>"; };
+		8B7167A228758AEE009DFFFF /* PhoneNumberKitInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberKitInputField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B71675A28731F53009DFFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7167722873203D009DFFFF /* FlagKit in Frameworks */,
+				8B716799287588BE009DFFFF /* PhoneNumberKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B71675428731F53009DFFFF = {
+			isa = PBXGroup;
+			children = (
+				8B71675F28731F53009DFFFF /* FlagsInv */,
+				8B71675E28731F53009DFFFF /* Products */,
+				8B71679A287588CE009DFFFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B71675E28731F53009DFFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B71675D28731F53009DFFFF /* FlagsInv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B71675F28731F53009DFFFF /* FlagsInv */ = {
+			isa = PBXGroup;
+			children = (
+				8B71679F287589F2009DFFFF /* PhoneNumberKitImpl */,
+				8B71677328743EDF009DFFFF /* PhoneNumberInputView */,
+				8B71676028731F53009DFFFF /* FlagsInvApp.swift */,
+				8B71676228731F53009DFFFF /* ContentView.swift */,
+				8B71676E28731F74009DFFFF /* ContentViewModel.swift */,
+				8B71676428731F55009DFFFF /* Assets.xcassets */,
+				8B71676628731F55009DFFFF /* Preview Content */,
+			);
+			path = FlagsInv;
+			sourceTree = "<group>";
+		};
+		8B71676628731F55009DFFFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B71676728731F55009DFFFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B71677328743EDF009DFFFF /* PhoneNumberInputView */ = {
+			isa = PBXGroup;
+			children = (
+				8B71677B287481F9009DFFFF /* PhoneMasks.json */,
+				8B71677428743F04009DFFFF /* PhoneNumberInputView.swift */,
+			);
+			path = PhoneNumberInputView;
+			sourceTree = "<group>";
+		};
+		8B71679A287588CE009DFFFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B71679F287589F2009DFFFF /* PhoneNumberKitImpl */ = {
+			isa = PBXGroup;
+			children = (
+				8B7167A028758A40009DFFFF /* PNKInputImpl.swift */,
+				8B7167A228758AEE009DFFFF /* PhoneNumberKitInputField.swift */,
+			);
+			path = PhoneNumberKitImpl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B71675C28731F53009DFFFF /* FlagsInv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B71676B28731F55009DFFFF /* Build configuration list for PBXNativeTarget "FlagsInv" */;
+			buildPhases = (
+				8B71675928731F53009DFFFF /* Sources */,
+				8B71675A28731F53009DFFFF /* Frameworks */,
+				8B71675B28731F53009DFFFF /* Resources */,
+				8B71679E287588CE009DFFFF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagsInv;
+			packageProductDependencies = (
+				8B7167712873203D009DFFFF /* FlagKit */,
+				8B716798287588BE009DFFFF /* PhoneNumberKit */,
+			);
+			productName = FlagsInv;
+			productReference = 8B71675D28731F53009DFFFF /* FlagsInv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B71675528731F53009DFFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8B71675C28731F53009DFFFF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B71675828731F53009DFFFF /* Build configuration list for PBXProject "FlagsInv" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B71675428731F53009DFFFF;
+			packageReferences = (
+				8B7167702873203D009DFFFF /* XCRemoteSwiftPackageReference "FlagKit" */,
+				8B71677628745B79009DFFFF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8B716797287588BE009DFFFF /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+			);
+			productRefGroup = 8B71675E28731F53009DFFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B71675C28731F53009DFFFF /* FlagsInv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B71675B28731F53009DFFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71677C287481F9009DFFFF /* PhoneMasks.json in Resources */,
+				8B71676828731F55009DFFFF /* Preview Assets.xcassets in Resources */,
+				8B71676528731F55009DFFFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B71675928731F53009DFFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71676328731F53009DFFFF /* ContentView.swift in Sources */,
+				8B7167A128758A40009DFFFF /* PNKInputImpl.swift in Sources */,
+				8B71676128731F53009DFFFF /* FlagsInvApp.swift in Sources */,
+				8B71676F28731F74009DFFFF /* ContentViewModel.swift in Sources */,
+				8B7167A328758AEE009DFFFF /* PhoneNumberKitInputField.swift in Sources */,
+				8B71677528743F04009DFFFF /* PhoneNumberInputView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B71676928731F55009DFFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B71676A28731F55009DFFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B71676C28731F55009DFFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlagsInv/Preview Content\"";
+				DEVELOPMENT_TEAM = QN4J7445H4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.FlagsInv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B71676D28731F55009DFFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlagsInv/Preview Content\"";
+				DEVELOPMENT_TEAM = QN4J7445H4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.FlagsInv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B71675828731F53009DFFFF /* Build configuration list for PBXProject "FlagsInv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B71676928731F55009DFFFF /* Debug */,
+				8B71676A28731F55009DFFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B71676B28731F55009DFFFF /* Build configuration list for PBXNativeTarget "FlagsInv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B71676C28731F55009DFFFF /* Debug */,
+				8B71676D28731F55009DFFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B7167702873203D009DFFFF /* XCRemoteSwiftPackageReference "FlagKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/madebybowtie/FlagKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		8B71677628745B79009DFFFF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8B716797287588BE009DFFFF /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B7167712873203D009DFFFF /* FlagKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B7167702873203D009DFFFF /* XCRemoteSwiftPackageReference "FlagKit" */;
+			productName = FlagKit;
+		};
+		8B716798287588BE009DFFFF /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B716797287588BE009DFFFF /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8B71675528731F53009DFFFF /* Project object */;
+}

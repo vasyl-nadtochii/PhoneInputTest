@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "branch" : "master",
+        "revision" : "51d67100121d586c9d15ec0227de96442af4dd6d"
+      }
+    },
+    {
+      "identity" : "flagkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/madebybowtie/FlagKit",
+      "state" : {
+        "revision" : "f12111d91902d23fd1d9cc7ad9198030b049795d",
+        "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "phonenumberkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marmelroy/PhoneNumberKit",
+      "state" : {
+        "branch" : "master",
+        "revision" : "ddbc8738537aa671b003c0431605974727440d60"
+      }
+    }
+  ],
+  "version" : 2
+}
